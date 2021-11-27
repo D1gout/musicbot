@@ -484,10 +484,10 @@ class Music(commands.Cog):
 
         if ctx.voice_client:
             if ctx.voice_client.channel != ctx.author.voice.channel:
-                raise commands.CommandError('Бот уже подключен с голосовому каналу.')
+                raise commands.CommandError('Бот уже подключен к голосовому каналу.')
 
 
-bot = commands.Bot('bot.', description='Крутой бот от никоскокоса).')
+bot = commands.Bot('bot.', description='made D1gout).')
 bot.add_cog(Music(bot))
 
 
