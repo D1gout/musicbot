@@ -1,1 +1,1 @@
-worker: node music_rus.py
+worker: python music_rus.py
